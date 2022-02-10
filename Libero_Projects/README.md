@@ -1,5 +1,5 @@
 # PolarFire Evaluation Kit Mi-V Sample FPGA Designs
-This folder contains Tcl scripts that build Libero SoC v2021.2 design projects for the PolarFire Evaluation Kit. These scripts are executed in Libero SoC to generate the sample designs. All cores boot from memory at 0x8000_0000.
+This folder contains Tcl scripts that build Libero SoC v2021.3 design projects for the PolarFire Evaluation Kit. These scripts are executed in Libero SoC to generate the sample designs. All cores boot from memory at 0x8000_0000.
 
 
 #### PF_Eval_Kit_MIV_RV32IMA_BaseDesign (or ES equivalent)
@@ -26,6 +26,7 @@ This folder contains Tcl scripts that build Libero SoC v2021.2 design projects f
 | CFG1    | This design uses the MIV_RV32 core configured as follows: <ul><li>RISC-V Extensions: IMC</li><li>Multiplier: MACC (Pipelined)</li><li>Interfaces: AHB Master (mirrored), APB3 Master</li><li>Internal IRQs: 6</li><li>TCM: Enabled</li><li>System Timer: Internal MTIME enabled, Internal MTIME IRQ enabled</li><li>Debug: enabled</li></ul>|
 | CFG2    | This design uses the MIV_RV32 core configured as follows: <ul><li>RISC-V Extensions: IM</li><li>Multiplier: Fabric</li><li>Interfaces: AXI4 Master (mirrored), APB3 Master</li><li>Internal IRQs: 6</li><li>TCM: Disabled</li><li>System Timer: Internal MTIME enabled, Internal MTIME IRQ enabled</li><li>Debug: enabled</li></ul>|
 | CFG3    | This design uses the MIV_RV32 core configured as follows: <ul><li>RISC-V Extensions: I</li><li>Multiplier: none</li><li>Interfaces: APB3 Master</li><li>Internal IRQs: 6</li><li>TCM: Enabled</li><li>System Timer: Internal MTIME enabled, Internal MTIME IRQ enabled</li><li>Debug: enabled</li></ul>|
+| CFG4    | This design is supported on PolarFire production silicon. The design configuration is specifically for use with the User Crypto processor example firmware and the CoreSysServices_PF example firmware. The memory map of the design is printed in tcl console once the design is created.|
 
 
 
@@ -74,7 +75,7 @@ In the examples above the arguments "CFG1" and "CFG1 SYNTHESIZE" were entered. T
 
 ## Design Features
 The Libero designs include the following features:
-* A soft RISC-V [processor](https://github.com/RISCV-on-Microsemi-FPGA/CPUs)
+* A soft RISC-V processor.
 * A RISC-V debug block allowing on-target debug using SoftConsole
 * The operating frequency of the design is 50MHz
 * Target memory is SRAM (32kB)

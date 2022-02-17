@@ -40,7 +40,7 @@ create_and_configure_core -core_vlnv {Microsemi:MiV:MIV_RV32:3.0.100} -component
 "NUM_EXT_IRQS:6"  \
 "RECONFIG_BOOTROM:false"  \
 "RESET_VECTOR_ADDR_0:0x0"  \
-"RESET_VECTOR_ADDR_1:0x4000"  \
+"RESET_VECTOR_ADDR_1:0x8000"  \
 "TAS_END_ADDR_0:0x7fff"  \
 "TAS_END_ADDR_1:0x4000"  \
 "TAS_START_ADDR_0:0x0"  \

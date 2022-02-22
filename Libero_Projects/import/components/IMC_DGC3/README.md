@@ -96,6 +96,5 @@ A more detailed description of the boot sequence can be found in this section.
 | Memory Source                    | Address Start | Address End | Size   |
 | -------------------------------: |:-------------:|:-----------:|:------:|
 | TCM                              | 0x4000_0000   | 0x4000_7FFF | 32kB   | 
-| LSRAM                            | 0x8000_0000   | 0x8000_7FFF | 32kB   |
 
 

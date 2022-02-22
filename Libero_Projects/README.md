@@ -85,7 +85,7 @@ The Libero designs include the following features:
 * Target memory is SRAM/TCM (32kB)
 * User peripherals: MIV_ESS, 2 Timers, UART, 2 GPIO Inputs and 4 GPIO Outputs (GPIOs use fixed configs for simplicity and better resource utilization)
 
-> MI-V Extended Subsystem Design Guide Configurations :
+> MI-V Extended Subsystem Design Guide Configurations:
 > * For **DGC1: SPI Boot & Write** design features, refer to [DGC2 README](import/components/IMC_DGC1/README.md)
 > * For **DGC3: PF uPROM Boot** design features, refer to [DGC3 README](import/components/IMC_DGC3/README.md)
 > * For **DGC4: Peripherals** design features, refer to [DGC4 README](import/components/IMC_DGC4/README.md)

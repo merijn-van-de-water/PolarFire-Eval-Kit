@@ -1,8 +1,8 @@
 ## Mi-V Extended Subsystem Design Guide Configuration 1: SPI Write & Boot
-This folder contains Tcl scripts that build Libero SoC v2021.3* MIV_ESS DGC1 design project for the PolarFire Eval Kit. The script is executed in Libero SoC to generate the sample design. 
+This folder contains Tcl scripts that build Libero SoC v2021.3 MIV_ESS DGC1 design project for the PolarFire Eval Kit. The script is executed in Libero SoC to generate the sample design. 
 > Design is catered for Libero SoC v2021.3. Using older versions of Libero SoC will result in errors.
 
-#### PF_Avalanche_MIV_RV32_BaseDesign (no PolarFire Engineering Sample silicon project for DGC2)
+#### PF_Avalanche_MIV_RV32_BaseDesign (no PolarFire Engineering Sample silicon project for DGC1)
 
 | Config  | Description |
 | :------:|:----------------------------------------|

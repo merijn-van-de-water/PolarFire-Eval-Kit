@@ -1,5 +1,5 @@
 ## Mi-V Extended Subsystem Design Guide Configuration 3: PF uPROM Boot
-This folder contains Tcl scripts that build Libero SoC v2021.3 MIV_ESS DGC1 design project for the PolarFire Eval Kit. The script is executed in Libero SoC to generate the sample design. 
+This folder contains Tcl scripts that build Libero SoC v2021.3 MIV_ESS DGC3 design project for the PolarFire Eval Kit. The script is executed in Libero SoC to generate the sample design. 
 > Design is catered for Libero SoC v2021.3. Using older versions of Libero SoC will result in errors.
 
 #### PF_Avalanche_MIV_RV32_BaseDesign (no PolarFire Engineering Sample silicon project for DGC3)
@@ -32,7 +32,7 @@ The complete set of script arguments are documented here.
 #### First argument:
 | Argument                  |  Description   |
 | ------------------------- |:---------------|
-| DGC1                      | Generate a MIV_ESS example design from the MIV_ESS Design Guide  |
+| DGC3                      | Generate a MIV_ESS example design from the MIV_ESS Design Guide  |
 
 #### Second argument:
 | Argument                  |  Description   |
@@ -49,7 +49,7 @@ There are two programs included with this configuration:
     > The example hex program was created using  miv-rv32i-systick-blinky in release mode (mivrv32i-Release).
 
 
-## <a name="Design Guide Configuration - DGC1: SPI Write & Boot"></a> Design Guide Configuration - DGC3: PF uPROM Boot
+## <a name="Design Guide Configuration - DGC3: PF uPROM Boot"></a> Design Guide Configuration - DGC3: PF uPROM Boot
 
 ### Features
 The Libero designs include the following features:

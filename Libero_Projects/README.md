@@ -4,7 +4,7 @@ This folder contains Tcl scripts that build Libero SoC v2021.3 design projects f
 > MI-V Extended Subsystem Design Guide Configurations:
 > * For **Design Guide Configuration - DGC1: SPI Write & Boot** refer to this [DGC1 README](import/components/IMC_DGC1/README.md)
 > * For **Design Guide Configuration - DGC3: PF uPROM Boot** refer to this [DGC3 README](import/components/IMC_DGC3/README.md)
-> * For **Design Guide Configuration - DGC4: Peripherals** refer to this [DGC4 README](import/components/IMC_DGC4/README.md)
+> * For **Design Guide Configuration - DGC4: Basic Peripherals** refer to this [DGC4 README](import/components/IMC_DGC4/README.md)
 
 
 #### PF_Eval_Kit_MIV_RV32_BaseDesign (or ES equivalent)
@@ -88,7 +88,7 @@ The Libero designs include the following features:
 > MI-V Extended Subsystem Design Guide Configurations:
 > * For **DGC1: SPI Boot & Write** design features, refer to [DGC2 README](import/components/IMC_DGC1/README.md)
 > * For **DGC3: PF uPROM Boot** design features, refer to [DGC3 README](import/components/IMC_DGC3/README.md)
-> * For **DGC4: Peripherals** design features, refer to [DGC4 README](import/components/IMC_DGC4/README.md)
+> * For **DGC4: Basic Peripherals** design features, refer to [DGC4 README](import/components/IMC_DGC4/README.md)
 
 The peripherals in this design are located at the following addresses.
 

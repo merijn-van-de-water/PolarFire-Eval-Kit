@@ -66,7 +66,7 @@ In the examples above the arguments "CFG1" and "CFG1 SYNTHESIZE" were entered. T
 | Argument                  |  Description   |
 | ------------------------- |:---------------|
 | CFG1..CFGn                | Generate a sample design for the selected configuration  |
-| DGC1 or DGC3 or DGC4      | Generate a MIV_ESS example design from the MIV_ESS Design Guide |
+| DGC1 or DGC3 or DGC4      | Generate a MIV_ESS example design from the *MIV_ESS v2.0 Design Guide* (accessible from the Libero catalog) |
 
 
 #### Second argument:
@@ -86,7 +86,7 @@ The Libero designs include the following features:
 * User peripherals: MIV_ESS, 2 Timers, UART, 2 GPIO Inputs and 4 GPIO Outputs (GPIOs use fixed configs for simplicity and better resource utilization)
 
 > MI-V Extended Subsystem Design Guide Configurations:
-> * For **DGC1: SPI Boot & Write** design features, refer to [DGC2 README](import/components/IMC_DGC1/README.md)
+> * For **DGC1: SPI Boot & Write** design features, refer to [DGC1 README](import/components/IMC_DGC1/README.md)
 > * For **DGC3: PF uPROM Boot** design features, refer to [DGC3 README](import/components/IMC_DGC3/README.md)
 > * For **DGC4: Basic Peripherals** design features, refer to [DGC4 README](import/components/IMC_DGC4/README.md)
 

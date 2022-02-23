@@ -47,7 +47,7 @@ The complete set of script arguments are documented here.
 There are two programs included with this configuration:
 * **miv-rv32i-systick-blinky.hex**: A Hex program configured to run from LSRAM's address (0x8000_0000). MIV_RV32 reset vector is setup to boot from 0x8000_0000.
 
-    > The example hex program was created using  miv-rv32i-systick-blinky in release mode (mivrv32imc-Release).
+    > The example hex program was created using  miv-rv32i-systick-blinky in release mode (miv32imc-Release). For more information about the project go to bare metal example: [miv-rv32i-systick-blinky](https://github.com/Mi-V-Soft-RISC-V/miv-rv32-bare-metal-examples/tree/main/applications/miv-rv32-hal/miv-rv32i-systick-blinky)
 
 
 ## <a name="Design Guide Configuration - DGC4: Basic Peripherals"></a> Design Guide Configuration - DGC4: Basic Peripherals

@@ -32,7 +32,7 @@ The complete set of script arguments are documented here.
 #### First argument:
 | Argument                  |  Description   |
 | ------------------------- |:---------------|
-| DGC3                      | Generate a MIV_ESS example design from the MIV_ESS Design Guide  |
+| DGC3                      | Generate a MIV_ESS example design from the *MIV_ESS v2.0 Design Guide* (accessible from the Libero catalog)  |
 
 #### Second argument:
 | Argument                  |  Description   |

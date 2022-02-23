@@ -46,9 +46,10 @@ The complete set of script arguments are documented here.
 ## <a name="Software Provided"></a> Software Provided
 There are two programs included with this configuration:
 * **miv-rv32i-systick-blinky.hex**: A Hex program configured to run from TCM's address (0x4000_0000). The program is initialized in the LSRAM component at 0x8000_0000 and it is accessible over the AHB interface.
-    > The example hex program was created using  miv-rv32i-systick-blinky in release mode (mivrv32i-Release).
+    > The example hex program was created using  miv-rv32i-systick-blinky in release mode (miv32i-Release). For more information about the project go to bare metal example: [miv-rv32i-systick-blinky](https://github.com/Mi-V-Soft-RISC-V/miv-rv32-bare-metal-examples/tree/main/applications/miv-rv32-hal/miv-rv32i-systick-blinky)
+
 * **miv-rv32-ess-bootloader.elf**: The supplied Bootloader .elf file is used to copy data from the LSRAM (SRC_MEM) @0x8000_0000 to external SPI Flash memory on PolarFire Eval Kit board
-    > The .elf program was compiled using 'miv-rv32-ess-bootloader' in Bootstrap mode.
+    > The .elf program was compiled using 'miv-rv32-ess-bootloader' in Bootstrap mode. For more information about the project go to bare metal example: [miv-rv32-ess-bootloader](https://github.com/Mi-V-Soft-RISC-V/miv-rv32-bare-metal-examples/tree/main/applications/bootloaders/miv-rv32-bootloader)
 
 #### Running a Bootloader .elf program for DGC1
 The provided program, *miv-rv32-ess-bootloader.elf* , is available in the Libero project folder after the *create_project* .tcl script has been run for the Design Configuration 1 (DGC1). The program can be used to transfer a program stored in LSRAM to an external SPI Flash. The MIV_ESS can then copy the code to the MIV_RV32 Tightly Coupled Memory (TCM), then the MIV_RV32 can boot the copied code.
@@ -115,5 +116,4 @@ A more detailed description of the boot sequence can be found in this section.
 | -------------------------------: |:-------------:|:-----------:|:------:|
 | TCM                              | 0x4000_0000   | 0x4000_7FFF | 32kB   | 
 | LSRAM                            | 0x8000_0000   | 0x8000_7FFF | 32kB   |
-
 
